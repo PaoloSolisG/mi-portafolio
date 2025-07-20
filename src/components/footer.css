@@ -1,0 +1,72 @@
+.footer {
+ 
+  color: #e0e7ff;
+  padding: 20px 20px 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 40px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.footer-section {
+  flex: 0 0 auto;
+  min-width: 280px;
+}
+
+.footer-section h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #facc15;
+}
+
+/* Redes sociales */
+.social-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 1.4rem;
+}
+
+.social-icons a {
+  color: #93c5fd;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #facc15;
+  cursor: pointer;
+}
+
+/* Dirección en línea con barras */
+.direccion-linea {
+  margin: 0;
+  font-weight: 500;
+  color: #cbd5e1;
+  white-space: nowrap; /* evita salto de línea */
+  font-size: 1rem;
+}
+
+/* Pie de página */
+.footer-bottom {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #64748b;
+  user-select: none;
+}
+hr {
+  border: none;               /* quitar borde por defecto */
+  height: 1px;                /* línea muy delgada */
+  background-color: rgba(255, 255, 255, 0.15); /* blanco semi-transparente */
+  margin: 20px 0;             /* espacio arriba y abajo */
+  width: 100%;                /* que ocupe todo el ancho del contenedor */
+}
