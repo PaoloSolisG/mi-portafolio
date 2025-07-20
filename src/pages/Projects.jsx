@@ -25,7 +25,7 @@ const projectList = [
     id: 2,
     title: "Group Dispenser Sac",
     description: "Página cotizadora para empresa de hidrocarburos",
-    image: "/dispensersac.jpg",
+    image: "dispensersac.jpg",
     category: "Frontend",
     technologies: [
       "CodeIgniter 4",
@@ -43,7 +43,7 @@ const projectList = [
     title: "Latino Knowledge",
     description:
       "Sitio web para contadora en EEUU, desarrollado con PHP 8.2 en backend y JavaScript en frontend.",
-    image: "/latinonowledge.JPG",
+    image: "latinonowledge.JPG",
     category: "Backend",
     technologies: ["PHP 8.2", "Laravel", "MySQL", "JavaScript"],
     link: "https://latinoknowledge.groupdispensersac.com/",
@@ -52,7 +52,7 @@ const projectList = [
     id: 4,
     title: "Tienda Valeapp",
     description: "Tienda virtual full stack con pasarela de pago integrada.",
-    image: "/valeapp.jpg",
+    image: "valeapp.jpg",
     category: "Full Stack",
     technologies: [
       "Laravel",
@@ -69,7 +69,7 @@ const projectList = [
     title: "Sistema POS / Facturación Electrónica",
     description:
       "Facturación electrónica con sistema de ventas y reportes financieros.",
-    image: "/facturador.JPG",
+    image: "facturador.JPG",
     category: "Full Stack",
     technologies: [
       "PHP 8.2",
@@ -87,7 +87,7 @@ const projectList = [
     title: "Campus Virtual Dozer",
     description:
       "Plataforma para clases virtuales online con manejo de usuarios y seguridad.",
-    image: "/dozer.JPG",
+    image: "dozer.JPG",
     category: "Backend",
     technologies: [
       "Laravel 11",
